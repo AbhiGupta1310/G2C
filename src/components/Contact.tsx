@@ -392,7 +392,7 @@ const Contact: React.FC = () => {
               help you get cash quickly and safely.
             </p>
             <button
-              onClick={() => window.open("tel:+919876543299", "_self")}
+              onClick={() => window.open("tel:+917827071798", "_self")}
               className="bg-red-600 hover:bg-red-700 text-white font-bold px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105 animate-pulse"
             >
               🚨 Emergency Hotline: +91 78270 71798
