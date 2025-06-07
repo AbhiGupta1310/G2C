@@ -184,7 +184,7 @@ const QuoteCalculator: React.FC = () => {
                       onChange={(e) =>
                         handleInputChange("weightUnit", e.target.value)
                       }
-                      className="w-full sm:w-40 bg-gray-800 border border-gray-600 rounded-lg px-4 py-3 text-white focus:border-yellow-400 focus:outline-none"
+                      className="w-full sm:w-48 bg-gray-800 border border-gray-600 rounded-lg px-4 py-3 text-white focus:border-yellow-400 focus:outline-none"
                     >
                       <option value="grams">Grams</option>
                       <option value="tola">Tola</option>
