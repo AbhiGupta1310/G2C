@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { Coins, Gem, Zap, Award } from "lucide-react";
+import { Zap, Award } from "lucide-react";
 
 const Services: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
