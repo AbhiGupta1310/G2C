@@ -244,7 +244,7 @@ const QuoteCalculator: React.FC = () => {
                     </button>
 
                     <button
-                      onClick={() => window.open("tel:+919876543210", "_self")}
+                      onClick={() => window.open("tel:+917827071798", "_self")}
                       className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition-all duration-300 transform hover:scale-105"
                     >
                       📞 Call for Accurate Quote
