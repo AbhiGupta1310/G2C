@@ -169,7 +169,7 @@ const QuoteCalculator: React.FC = () => {
                   <label className="block text-white font-medium mb-3">
                     Weight
                   </label>
-                  <div className="flex space-x-3">
+                  <div className="flex flex-col sm:flex-row sm:space-x-3 space-y-3 sm:space-y-0">
                     <input
                       type="number"
                       placeholder="Enter weight"
@@ -177,14 +177,14 @@ const QuoteCalculator: React.FC = () => {
                       onChange={(e) =>
                         handleInputChange("weight", e.target.value)
                       }
-                      className="flex-1 bg-gray-800 border border-gray-600 rounded-lg px-4 py-3 text-white focus:border-yellow-400 focus:outline-none"
+                      className="w-full bg-gray-800 border border-gray-600 rounded-lg px-4 py-3 text-white focus:border-yellow-400 focus:outline-none"
                     />
                     <select
                       value={formData.weightUnit}
                       onChange={(e) =>
                         handleInputChange("weightUnit", e.target.value)
                       }
-                      className="bg-gray-800 border border-gray-600 rounded-lg px-4 py-3 text-white focus:border-yellow-400 focus:outline-none"
+                      className="w-full sm:w-40 bg-gray-800 border border-gray-600 rounded-lg px-4 py-3 text-white focus:border-yellow-400 focus:outline-none"
                     >
                       <option value="grams">Grams</option>
                       <option value="tola">Tola</option>
