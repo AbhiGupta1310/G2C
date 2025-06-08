@@ -68,7 +68,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black">
+    <section className="pt-10 relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black">
       {/* Background Animation */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-1/2 -left-1/2 w-full h-full bg-gradient-radial from-yellow-400/10 to-transparent animate-pulse-slow"></div>
@@ -83,7 +83,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
           className="space-y-6 md:space-y-10"
         >
           {/* Badge */}
-          <motion.div variants={fadeUp} className="mt-10 md:mt-20">
+          <motion.div variants={fadeUp} className="mt-6 mb-4 md:mt-20 md:mb-8">
             <div className="inline-flex items-center space-x-2 bg-yellow-400/20 border border-yellow-400/30 rounded-full px-4 py-2 md:px-6">
               <Star className="w-4 h-4 text-yellow-400" fill="currentColor" />
               <span className="text-yellow-400 text-xs md:text-sm font-medium">
