@@ -199,18 +199,18 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             <div>
               <div className="text-2xl font-bold text-yellow-400 mb-1">
-                10,000+
+                1,500+
               </div>
               <div className="text-gray-400 text-sm">Happy Customers</div>
             </div>
             <div>
               <div className="text-2xl font-bold text-green-400 mb-1">
-                ₹50Cr+
+                ₹15Cr+
               </div>
               <div className="text-gray-400 text-sm">Total Paid</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-blue-400 mb-1">15+</div>
+              <div className="text-2xl font-bold text-blue-400 mb-1">12+</div>
               <div className="text-gray-400 text-sm">Years Experience</div>
             </div>
             <div>

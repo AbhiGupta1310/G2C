@@ -51,12 +51,12 @@ const Header: React.FC<HeaderProps> = ({ activeSection, scrollToSection }) => {
             className="flex items-center space-x-2 md:space-x-3 cursor-pointer group"
           >
             <div className="w-10 h-10 md:w-12 md:h-12 gold-gradient rounded-full flex items-center justify-center animate-goldGlow">
-              <span className="text-black font-bold text-lg md:text-xl">
+              <span className="text-black font-anton text-lg md:text-xl">
                 G2C
               </span>
             </div>
             <div className="flex flex-col">
-              <h1 className="text-xl md:text-2xl font-bold font-serif shimmer-text">
+              <h1 className="text-xl md:text-2xl font-anton shimmer-text">
                 GET 2 CASH
               </h1>
               <p className="text-xs text-yellow-400 font-light hidden sm:block">

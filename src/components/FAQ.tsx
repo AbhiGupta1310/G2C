@@ -164,19 +164,6 @@ const FAQ: React.FC = () => {
             </div>
           </div>
         </div>
-
-        {/* Knowledge Base Link */}
-        <div className="mt-12 text-center">
-          <p className="text-gray-500 mb-4">
-            Looking for more detailed information?
-          </p>
-          <button
-            onClick={() => window.open("#", "_blank")}
-            className="text-yellow-400 hover:text-yellow-300 font-medium underline transition-colors duration-300"
-          >
-            📚 Visit our complete Knowledge Base
-          </button>
-        </div>
       </div>
     </section>
   );

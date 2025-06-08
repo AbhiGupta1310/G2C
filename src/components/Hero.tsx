@@ -87,7 +87,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
             <div className="inline-flex items-center space-x-2 bg-yellow-400/20 border border-yellow-400/30 rounded-full px-4 py-2 md:px-6">
               <Star className="w-4 h-4 text-yellow-400" fill="currentColor" />
               <span className="text-yellow-400 text-xs md:text-sm font-medium">
-                Trusted by 1000+ Customers
+                Trusted by 1500+ Customers
               </span>
               <Star className="w-4 h-4 text-yellow-400" fill="currentColor" />
             </div>

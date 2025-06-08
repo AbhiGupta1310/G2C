@@ -100,10 +100,10 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       title: "Email",
-      primary: "info@get2cash.com",
-      secondary: "support@get2cash.com",
+      primary: "get2cashinfo@gmail.com",
+      // secondary: "support@get2cash.com",
       description: "We respond within 1 hour",
-      action: () => window.open("mailto:info@get2cash.com", "_self"),
+      action: () => window.open("mailto:get2cashinfo@gmail.com", "_self"),
       color: "text-blue-400",
       bgColor: "bg-blue-400/20",
     },
